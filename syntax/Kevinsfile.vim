@@ -6,6 +6,8 @@ elseif exists("b:current_syntax")
   finish
 endif
 
+runtime! syntax/groovy.vim
+unlet! b:current_syntax
 syn include @Groovy syntax/groovy.vim
 
 syn keyword kf_keyword_lvl1 compliments contained
