@@ -1,2 +1,2 @@
 " indent/Kevinsfile.vim
-runtime indent/json.vim
+runtime indent/groovy.vim
